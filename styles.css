@@ -2,13 +2,24 @@ body {
     background-color: rgb(141, 187, 172);
     color: rgb(59, 59, 59);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
 }
 
 button {
+    position: relative;
     border-radius: 5px;
     color: white;
     background-color: teal;
     border: 0px;
     width: 100px;
     height: 40px;
+}
+
+div {
+    background-color: burlywood;
+    display: inline;
+}
+
+input {
+    display: block;
 }
